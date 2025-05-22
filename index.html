@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Libros</title>
+</head>
+<body>
+    <h1>Tienda de Libros</h1>
+
+    <label for="titulo">Titulo:</label>
+    <input type="text" name="titulo" id="titulo"> <br> <br>
+    
+    <label for="precio">Precio:</label>
+    <input type="text" name="precio" id="precio"> 
+    
+    <button onclick="agregarLibro()">Agregar Libro</button>
+    
+    <h2>Libros Disponibles</h2>
+    
+    <ul id="libros"></ul>
+    
+    <h2>Carrito de Compras</h2>
+    
+    <ul id="carrito"></ul>
+    
+    <p><strong>Total: $<span id="total">0.00</span></strong></p>
+
+<script src="script.js"></script>
+</body>
+</html>
